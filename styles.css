@@ -1,43 +1,18 @@
-#fcf8e8
+/* #fcf8e8
 #d4e2d4
 #ecb390
-#df7861
+#df7861 */
 
 /* https://www.youandigraphics.com/
 /* https://www.spinxdigital.com/blog/wp-content/uploads/2020/05/Locomotive-%E2%80%93-Swab-the-World-Website-Design.png
 
 
-Skip to content
-Search or jump to…
 
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@RachelUberti 
-RachelUberti
-/
-udemyTindoggit
-1
-00
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-udemyTindoggit/css/styles.css
-@RachelUberti
-RachelUberti final refactoring
-Latest commit e9a75d0 22 days ago
- History
- 1 contributor
-190 lines (146 sloc)  2.09 KB
-  
+
+
+
+/* Body */
+
 body {
   font: Montserrat;
   text-align: center;

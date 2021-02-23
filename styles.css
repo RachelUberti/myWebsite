@@ -148,7 +148,7 @@ p {
   margin: 20px;
 }
 
-#press {
+#skills {
   background-color: #dff3e3;
 }
 
@@ -160,19 +160,19 @@ p {
   padding: 3% 5%;
 }
 
-/* pricing section */
+/* Projects section */
 
-#pricing {
+#projects {
   padding: 100px;
 }
 
-.price-text {
+.project-text {
   font-size: 3rem;
   font-weight: 700;
   line-height: 1.5;
 }
 
-.pricing-column {
+.projects-column {
   padding: 3% 2%;
 }
 

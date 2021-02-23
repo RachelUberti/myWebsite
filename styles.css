@@ -127,7 +127,13 @@ p {
 }
 
 .feature-icon:hover {
-  color: #ff4c68;
+  color: #d68060;
+}
+
+/*About section */
+
+#about {
+  background-color: #f1ae89;
 }
 
 /*Testimonal section */

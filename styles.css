@@ -86,7 +86,8 @@ p {
 }
 
 .fa-circle,
-.fa-play {
+.fa-play,
+.fa-heart {
   padding-right: 7px;
 }
 
@@ -101,6 +102,12 @@ p {
 
 #title .container-fluid {
   padding: 3% 15% 7%;
+}
+
+/* About section */
+
+.about-text {
+  font-size: 2rem;
 }
 
 /* features section */
@@ -150,7 +157,7 @@ p {
 
 .testimonial-image {
   width: 10%;
-  border-radius: 100%;
+  border-radius: 30%;
   margin: 20px;
 }
 

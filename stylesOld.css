@@ -1,0 +1,251 @@
+/* Body */
+
+body {
+  font: Montserrat;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font: Montserrat-bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings  */
+
+.big-heading {
+  font: Montserrat-black;
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+/* Containers  */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.coloured-section {
+  background-color: #d68060;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font: montserrat-light;
+}
+
+a.nav-link {
+  position: relative;
+}
+
+a.nav-link:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #86aba1;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+a.nav-link:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+/* Title section */
+
+#title {
+  background-color: #d68060;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* moving element  */
+.element {
+  height: 400px;
+  width: 400px;
+  animation: pulse 3s ease infinite alternate,
+    nudge 5s linear infinite alternate;
+  border-radius: 100%;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    background-color: #86aba1;
+  }
+  50% {
+    background-color: #f1ae89;
+  }
+}
+
+@keyframes nudge {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(150px, 0);
+  }
+
+  80% {
+    transform: translate(-150px, 0);
+  }
+}
+
+/* About section */
+
+.about-text {
+  font-size: 2rem;
+}
+
+#about {
+  background-color: #f1ae89;
+}
+
+/* Skills section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.Features-text {
+  color: #8f8f8f;
+}
+
+.feature-icon {
+  color: #f1ae89;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #d68060;
+}
+
+/*identity section */
+
+#testimonials {
+  background-color: #f1ae89;
+}
+
+.testimonial-text {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 30%;
+  margin: 20px;
+}
+
+#skills {
+  background-color: #dff3e3;
+}
+
+.skill-box {
+  padding: 1.5%;
+}
+
+.skill-container-fluid {
+  padding: 3% 5%;
+}
+
+/* Projects section */
+
+#projects {
+  padding: 100px;
+}
+
+.project-text {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.projects-column {
+  padding: 3% 2%;
+}
+
+/* Keep Digging section */
+
+.digging-icon {
+  margin-right: 10px;
+}
+
+.download-button:hover {
+  color: #d68060;
+}
+
+/* Footer */
+
+.social-icon {
+  margin: 20px 10px;
+  color: #86aba1;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}

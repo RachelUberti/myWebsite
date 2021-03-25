@@ -1,3 +1,3 @@
-$("button").click(function() {
-    $(".jquery").css("color", "black");
+$(".dig-button").click(function() {
+    $(".keep-digging").css("color", "black");
 });

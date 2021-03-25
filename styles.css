@@ -59,7 +59,6 @@ p {
 }
 /* Headings  */
 .big-heading {
-  color: red;
   font: Montserrat-black;
   font-size: 4rem;
   font-weight: 900;
@@ -114,12 +113,14 @@ p {
 .element {
   height: 400px;
   width: 400px;
-  animation: pulse 3s ease infinite alternate, nudge 5s linear infinite alternate;
+  animation: pulse 3s ease infinite alternate,
+    nudge 5s linear infinite alternate;
   border-radius: 100%;
 }
 
 @keyframes pulse {
-  0%, 100% {
+  0%,
+  100% {
     background-color: #86aba1;
   }
   50% {
@@ -127,7 +128,8 @@ p {
   }
 }
 @keyframes nudge {
-  0%, 100% {
+  0%,
+  100% {
     transform: translate(0, 0);
   }
   50% {
